@@ -1,0 +1,71 @@
+@media screen and (max-width: 1200px) {
+    .container {
+        width: 100%;
+    }
+
+    .cafe-features {
+        flex-direction: column;
+    }
+    /* .cafe-feature {
+        margin: 0 auto;
+    } */
+
+    .cafe-information {
+        width: 100%;
+    }
+
+    .cafe-menu-inner {
+        width: 100%;
+    }
+
+    .cafe-menu {
+        padding: 0;
+    }
+
+    .cafe-map {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 913px) {
+    .cafe-features {
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+
+    .cafe-information-column-right {
+        border: none;
+    }
+
+    .cafe-description {
+        width: 400px;
+    }
+
+    .cafe-feature {
+        padding: 24px;
+    }
+
+    .footer p {
+        font-size: 0.6em;
+    }
+}
+
+
+@media screen and (max-width: 390px) {
+    .hero p {
+        font-size: 0.5em;
+    }
+
+    .hero img {
+        height: 170px;
+    }
+
+    .cafe-information-logo img {
+        height: 170px;
+    }
+
+    .cafe-description {
+        width: 230px;
+        margin-bottom: 80px;
+    }
+}
